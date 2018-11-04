@@ -139,6 +139,17 @@ a:visited
     font-size: 24px;
 }
 
+@media only screen and (max-width: 1280px) {
+   .name1
+    {
+        position: relative;
+        color: #fff;
+        font-size: 24px;
+        text-transform: uppercase;
+    } 
+}
+
+
 .name1 img
 {
     width: 100%;
@@ -167,6 +178,16 @@ a:visited
     position: relative;
     color: #fff;
     font-size: 24px;
+}
+
+@media only screen and (max-width: 1280px) {
+   .name2
+    {
+        position: relative;
+        color: #fff;
+        font-size: 24px;
+        text-transform: uppercase;
+    } 
 }
 
 .name2 img
