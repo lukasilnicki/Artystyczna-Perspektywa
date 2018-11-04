@@ -1,0 +1,188 @@
+body
+{
+    font-family: 'Lato', sans-serif;
+    margin: 0 !important;
+}
+
+a:link 
+{
+    color: #000;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: #000;
+}
+
+.container
+{
+    display: flex;							/* Wypośrodkowanie diva "select" w pionie */
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: url("img/tło.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    position: fixed;
+    width: 200px;
+    height: 120px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url("img/Logo_artystyczna perspektywa_ogólne.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1280px) {
+    #logo{
+        position: fixed;
+        width: 200px;
+        height: 120px;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: url("img/Logo_artystyczna perspektywa_ogólne.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+#select
+{
+    width: 100%;
+    height: 600px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+#malarstwo
+{
+    display: inline-block;
+    background: url("img/malarstwo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    margin-right: 50px;
+    margin-top: 7%;
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(32,44,102,1);
+    -moz-box-shadow: 0px 0px 4px 2px rgba(32,44,102,1);
+    box-shadow: 0px 0px 4px 2px rgba(32,44,102,1);
+}
+
+@media only screen and (max-width: 1280px) {
+    #malarstwo{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 13%;
+        -webkit-box-shadow: 0px 0px 4px 2px rgba(32,44,102,1);
+        -moz-box-shadow: 0px 0px 4px 2px rgba(32,44,102,1);
+        box-shadow: 0px 0px 4px 2px rgba(32,44,102,1);
+    }
+}
+
+#fotografia
+{
+    display: inline-block;
+    width: 30%;
+    background: url("img/fotografia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    margin-top: 7%;
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(32,44,102,1);
+    -moz-box-shadow: 0px 0px 4px 2px rgba(32,44,102,1);
+    box-shadow: 0px 0px 4px 2px rgba(32,44,102,1);
+}
+
+@media only screen and (max-width: 1280px) {
+    #fotografia{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 13%;
+        -webkit-box-shadow: 0px 0px 4px 2px rgba(32,44,102,1);
+        -moz-box-shadow: 0px 0px 4px 2px rgba(32,44,102,1);
+        box-shadow: 0px 0px 4px 2px rgba(32,44,102,1);
+    }
+}
+
+.sign1
+{
+    width: 100%;
+}
+
+.sign2
+{
+    width: 100%;
+}
+
+.name1
+{
+    position: relative;
+    color: #fff;
+    font-size: 24px;
+}
+
+.name1 img
+{
+    width: 100%;
+}
+
+.name1 .link
+{
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    padding-top: 13px;
+    font-weight: 700;
+    background-color: #fff;
+    left: 0px;
+    bottom: 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.name1:hover .link{
+    background-color: #77CC6D;
+}
+
+.name2
+{
+    position: relative;
+    color: #fff;
+    font-size: 24px;
+}
+
+.name2 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.name2 .link
+{
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    padding-top: 13px;
+    font-weight: 700;
+    background-color: #fff;
+    left: 0px;
+    bottom: 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.name2:hover .link{
+    background-color: #44a3e2;
+}
+
+
