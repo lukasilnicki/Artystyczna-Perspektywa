@@ -62,6 +62,16 @@ a:visited
     text-align: center;
 }
 
+@media only screen and (max-width: 1280px) {
+    #select
+    {
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+    }
+}
+
 #malarstwo
 {
     display: inline-block;
