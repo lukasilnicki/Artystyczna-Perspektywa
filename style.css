@@ -37,10 +37,10 @@ a:visited
 @media only screen and (max-width: 1280px) {
     #intro{
         position: absolute;
-        width: 70%;
-        top: 150px;
+        width: 100%;
+        top: 100px;
         text-align: center;
-        font-size: 25px;
+        font-size: 28px;
         left: 50%;
         transform: translateX(-50%);
     }
